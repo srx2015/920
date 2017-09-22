@@ -1,0 +1,1 @@
+<title>{{ $title or '后台管理'  }}</title>

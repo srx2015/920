@@ -1,0 +1,13 @@
+{
+    "require": {
+        "catfan/Medoo": "^1.4",
+        "duncan3dc/blade": "^3.4",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "files":["application/common/functions.php"],
+        "psr-4": {
+            "Core\\": "application/core/"
+        }
+    }
+}
